@@ -11,7 +11,7 @@ As shown in the figure above:
 
 - A file can be sent to a command using **'<'**.
 - The result of a command can be send to a file using **'>'** (if file exists it is overwritten).
-- The STDERR can be redirected using **'2>'**.
+- The STDERR can be redirected to a file using **'2>'**.
 - Additionally, the '>>' operator can be used to add lines to an existing file.
 
 The general syntax is the following:
@@ -20,11 +20,29 @@ The general syntax is the following:
 command < entry_file > out_file 2> error_file
 ```
 
-Use the head command to extract the 4 first lines of file SRR3099585_chr18.fastq.gz located in the Data folder.
+## Exercice
+
+Change your directory to *Data*
+
 
 ```
-head -n 4 Data/SRR3099585_chr18.fastq.gz
+cd Data
 ```
 
->>Q1: What is written in the first line ?
-=== 
+Uncompress the file SRR3099585_chr18.fastq.gz using the *gunzip* command.
+
+```
+gunzip SRR3099585_chr18.fastq.gz
+```
+
+>>How many lines does the file SRR3099585_chr18.fastq contains (use *wc* command) ?
+=== 1253884
+
+Use the head command to extract the 4 first lines of file SRR3099585_chr18.fastq store and store them in a new file named SRR3099585_chr18_4_lines.fastq.
+
+```
+head -n 4 SRR3099585_chr18.fastq > SRR3099585_chr18_4_lines.fastq
+```
+
+>>Q1: What does the first line of SRR3099585_chr18_4_lines.fastq contain ?
+=== @SRR3099585.1
