@@ -1,6 +1,6 @@
 Welcome!
 
-During this course, you will discover files and folders organization in Unix and learn some new Bash commands.
+During this course, you will discover Regular expression and how they can be used to search and edit text in the terminal.
 
 The left panel contains explanations and guides to run Unix commands. Use the right panel to type command examples and experiment as you wish.
 
