@@ -1,23 +1,21 @@
 {
-    "title": "Unix Introduction - DP",
-    "description": "Sessions to learn the basics about UNIX",
-    "icon": "fa-keyboard",
+    "title": "Unix Introduction - IFB",
+    "description": "Sessions to take Unix in hand",
     "courses": [
       {
-        "course_id": "session04",
-        "title": "Combining tools",
-        "description": "The real power of the Unix shell lies not in the individual commands, but in how easily they can be combined to do new things. This chapter will show you how to use this power to select the data you want, and introduce commands for sorting values and removing duplicates. 
-"
+        "course_id": "session01",
+        "title": "Basics of the Unix command line interface",
+        "description": "Unix, Linux, Shell, Terminal & command"
       },
       {
-        "course_id": "session05",
-        "title": "Using regular expression",
-        "description": ""
+        "course_id": "session02",
+        "title": "Manipulating files and directories",
+        "description": "tree, pwd, cd, ls, mkdir, cp, mv & rm"
       },
       {
-        "course_id": "session06",
-        "title": "initiation to shell scripting",
-        "description": ""
+        "course_id": "session03",
+        "title": "Manipulating data",
+        "description": "less, cat, head, tail, wc, grep & cut"
       }
     ]
   }
