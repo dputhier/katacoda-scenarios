@@ -22,11 +22,10 @@ command < entry_file > out_file 2> error_file
 
 ## Exercice
 
-Change your directory to *Data*
-
-
+Change your directory to *Data* and list the directory content.
 ```
 cd Data
+ls
 ```
 File SRR3099585_chr18.fastq.gz is compressed (see the *.gz extension). Uncompress the file SRR3099585_chr18.fastq.gz using the *gunzip* command.
 
@@ -34,11 +33,11 @@ File SRR3099585_chr18.fastq.gz is compressed (see the *.gz extension). Uncompres
 gunzip SRR3099585_chr18.fastq.gz
 ```
 
->>What is the file extension after decompression ?
+>>Q1:What is the file extension after decompression ?
 === .fastq
 
 
->>How many lines does the file SRR3099585_chr18.fastq contains (use *wc* command) ?<<
+>>Q2:How many lines does the file SRR3099585_chr18.fastq contains (use *wc* command) ?<<
 [*] 100
 [*] 1000
 [ ] 1253884
@@ -49,5 +48,5 @@ Use the head command to extract the 4 first lines of file SRR3099585_chr18.fastq
 head -n 4 SRR3099585_chr18.fastq > SRR3099585_chr18_4_lines.fastq
 ```
 
->>Q1: What does the first line of SRR3099585_chr18_4_lines.fastq contain ?
+>>Q3: What does the first line of SRR3099585_chr18_4_lines.fastq contain ?
 === @SRR3099585.1
