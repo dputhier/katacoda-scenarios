@@ -5,4 +5,4 @@ A Unix command can be thought of as a program that reads from a standard input (
 - the standard output allows to print the results of the command
 - the error output allows to print messages during the execution or when the program encounters an error.
  
-![command](./assets/io_cmd.png)
+![command](assets/io-cmd.png)
