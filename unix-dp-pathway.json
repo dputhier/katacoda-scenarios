@@ -4,8 +4,8 @@
     "courses": [
       {
         "course_id": "session04",
-          "title": "Combining tools",
-        "description": "The real power of the Unix shell lies not in the individual commands, but in how easily they can be combined to perform complex tasks."
+          "title": "Standard Input and Output",
+        "description": "The results of a UNIX command can be stored into a file. How does it work ?."
       },
       {
         "course_id": "session05",
