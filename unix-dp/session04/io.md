@@ -28,15 +28,20 @@ Change your directory to *Data*
 ```
 cd Data
 ```
-
-Uncompress the file SRR3099585_chr18.fastq.gz using the *gunzip* command.
+File SRR3099585_chr18.fastq.gz is compressed (see the *.gz extension). Uncompress the file SRR3099585_chr18.fastq.gz using the *gunzip* command.
 
 ```
 gunzip SRR3099585_chr18.fastq.gz
 ```
 
->>How many lines does the file SRR3099585_chr18.fastq contains (use *wc* command) ?
-=== 1253884
+>>What is the file extension after decompression ?
+=== .fastq
+
+
+>>How many lines does the file SRR3099585_chr18.fastq contains (use *wc* command) ?<<
+[*] 100
+[*] 1000
+[ ] 1253884
 
 Use the head command to extract the 4 first lines of file SRR3099585_chr18.fastq store and store them in a new file named SRR3099585_chr18_4_lines.fastq.
 
