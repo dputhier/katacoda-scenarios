@@ -1,16 +1,16 @@
 {
-    "title": "Unix Introduction - IFB",
-    "description": "Sessions to take Unix in hand",
+    "title": "Unix Introduction (follow up)",
+    "description": "This set of exercice follows the exercices proposes by IFB",
     "courses": [
       {
-        "course_id": "session01",
-        "title": "Basics of the Unix command line interface",
-        "description": "Unix, Linux, Shell, Terminal & command"
+        "course_id": "session04",
+          "title": "Combining tools",
+        "description": "The real power of the Unix shell lies not in the individual commands, but in how easily they can be combined to do new things. This chapter will show you how to use this power to select the data you want, and introduce commands for sorting values and removing duplicates."
       },
       {
-        "course_id": "session02",
-        "title": "Manipulating files and directories",
-        "description": "tree, pwd, cd, ls, mkdir, cp, mv & rm"
+        "course_id": "session05",
+        "title": "Regular expression",
+        "description": "Regular expression are "
       },
       {
         "course_id": "session03",
