@@ -1,6 +1,6 @@
 Welcome!
 
-During this course, you will discover files and folders organization in Unix and learn some new Bash commands.
+During this course, you will discover how to redirect the result of a command to a file.
 
 The left panel contains explanations and guides to run Unix commands. Use the right panel to type command examples and experiment as you wish.
 
