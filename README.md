@@ -1,10 +1,14 @@
-# Interactive Katacoda Scenarios
+# Katacoda scenarios
 
-[![](http://shields.katacoda.com/katacoda/denis-puthier/count.svg)](https://www.katacoda.com/denis-puthier "Get your profile on Katacoda.com")
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4767356.svg)](https://doi.org/10.5281/zenodo.4767356)
 
-Visit https://www.katacoda.com/denis-puthier to view the profile and interactive scenarios
+[Katacoda scenarios](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix)
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+[Documentation](https://www.katacoda.community/welcome.html)
 
-For examples, visit https://github.com/katacoda/scenario-example
+
+## License
+
+![](img/CC-BY-SA.png)
+
+This content is released under the [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) (CC BY-SA 4.0) license. See the bundled [LICENSE.txt](LICENSE.txt) file for details.

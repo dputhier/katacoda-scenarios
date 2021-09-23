@@ -1,0 +1,46 @@
+The `tree` command displays the tree-like organization of files and sub-directories contained in a particular directory.
+
+In the example below, the `tree` command displays the content of the `/shared` directory limited only to directories (option `-d`) and with only two levels of sub-directories (option `-L 2`):
+
+```bash
+tree -d -L 2 /shared
+```
+
+These directories where created to store genome files of different species.
+
+From the previous command, we can construct a path from the root `/` to the `homo_sapiens` directory. This path is:
+
+```bash
+/shared/bank/homo_sapiens
+```
+
+As stated previously, this path that starts with an `/` is an absolute path. Starting from the root  `/`, we go through the `shared` then `bank` directories to reach the target `homo_sapiens` directory.
+
+Paths are used in many Unix commands, such as the `ls` (that stands for **l**i**s**t) command:
+
+```bash
+ls /shared/bank/homo_sapiens
+```
+
+This `ls` command lists the content of the specified directory (also named **argument** of the ls command).
+
+
+>>What does the command `ls /shared/bank/homo_sapiens` return?<<
+[ ] hg18
+[*] hg19
+[ ] hg37
+[*] hg38
+
+Remark: Usually `hg` stands for **h**uman **g**enome and the number denotes the sequence version.
+
+
+>>What is the absolute path of the parent directory of the directory `/shared/bank/bos_taurus`?<<
+( ) /
+( ) /shared
+(*) /shared/bank
+
+
+>>What is the absolute path of the `hg19/fasta` directory in `/shared/bank/homo_sapiens`?<<
+( ) /shared/bank/homo_sapiens/hg19
+(*) /shared/bank/homo_sapiens/hg19/fasta
+( ) bank/homo_sapiens/hg19/fasta
