@@ -1,1 +1,1 @@
-You've completed the **Combining tools** scenario. Congratulation!
+You've completed the **Standard Input and Output** scenario. Congratulation!
