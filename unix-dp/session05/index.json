@@ -5,29 +5,13 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-      {
-      "title": "Unix & Command lines",
-      "text": "step-Unix_and_Command_lines.md"
+      { 
+      "title": "Blabla",
+      "text": "step1.md"
       },
       {
       "title": "The Shell",
-      "text": "step-The_Shell.md"
-      },
-      {
-      "title": "The terminal",
-      "text": "step-The_terminal.md"
-      },
-      {
-      "title": "Unix command",
-      "text": "step-Unix_command.md"
-      },
-      {
-      "title": "A simple basic command: ls",
-      "text": "step-A_simple_basic_command_ls.md"
-      },
-      {
-      "title": "Getting help",
-      "text": "step-Getting_help.md"
+      "text": "step2.md"
       }
     ],
     "intro": {

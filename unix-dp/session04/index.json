@@ -7,7 +7,7 @@
     "steps": [
       {
       "title": "Unix & Command lines",
-      "text": "step-Unix_and_Command_lines.md"
+      "text": "step1.md"
       },
       {
       "title": "The Shell",
